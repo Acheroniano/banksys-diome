@@ -18,7 +18,8 @@ Entrega de Projeto Sistema Bancário da Dio.me ( Exercício do Bootcamp Suzano P
 <h2> 🤖 Tecnologias utilizadas</h2>
 
 <div>
-  <a href="https://www.w3schools.com/html" target="_new"><img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white" alt="html link"></a>
-  <a href="https://www.w3schools.com/css" target="_new"><img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" alt="html link"></a>
+  <a href="https://www.w3schools.com/python" target="_new"><img src="https://img.shields.io/badge/python-239120?style=for-the-badge&logo=python&logoColor=white" alt="html link"></a>
+  <!-- <a href="https://www.w3schools.com/css" target="_new"><img src="https://img.shields.io/badge/CSS-239120?style=for-the-badge&logo=css3&logoColor=white" alt="html link"></a>
   <a href="https://www.w3schools.com/js" target="_new"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=blue" alt="html link"></a>
+-->
 </div>
