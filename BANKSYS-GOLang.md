@@ -7,9 +7,9 @@
 Use code with care. Learn more
 Key Changes and Explanations
 
-Package and Imports:
+# Package and Imports:
 
-package main: Go programs start with a package declaration.<br>
+<b>package main</b>: Go programs start with a package declaration.<br>
 <b>import (...)</b>: Imports necessary packages for input/output, random numbers, string manipulation, etc.<br>
 <b>Global Variables</b>:
 Global variables are declared outside of any function.
