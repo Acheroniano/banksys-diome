@@ -36,22 +36,22 @@ Go uses type inference (e.g., string, float64, int, bool).
 <b>Comments</b>: Comments in the code are used to explain the logic, and where it came from the Python code.<br>
 <b>Bufio</b>: Used bufio to implement waitForEnter() correctly.<br>
 
-How to Run
+# How to Run
 
-Save: Save the code as banksys.go.
-Open Terminal: Open a terminal or command prompt.
-Navigate: Go to the directory where you saved banksys.go.
-Compile: go build banksys.go
-Run: ./banksys (or banksys.exe on Windows).
-Testing:
+<b>Save</b>: Save the code as banksys.go.<br>
+<b>Open Terminal</b>: Open a terminal or command prompt.<br>
+<b>Navigate</b>: Go to the directory where you saved banksys.go.<br>
+<b>Compile</b>: go build banksys.go<br>
+<b>Run</b>: ./banksys (or banksys.exe on Windows).<br>
+<b>Testing</b>: Run the code and check if the options are working correctly.<br>
 
-Run the code and check if the options are working correctly.
-Key Improvements over the Python Version
+# Key Improvements over the Python Version
 
-Concurrency (Potential): Go has strong concurrency features, so you could add concurrent operations.
-Performance: Go is generally faster than Python.
-Type Safety: Go is statically typed, leading to fewer runtime errors.
-This Go version of banksys is a close functional equivalent to the provided Python code. Please let me know if you have any other questions.
+<b>Concurrency (Potential)</b>: Go has strong concurrency features, so you could add concurrent operations.<br>
+<b>Performance</b>: Go is generally faster than Python.<br>
+<b>Type Safety</b>: Go is statically typed, leading to fewer runtime errors.<br>
+<b>This Go version of banksys</b> is a close functional equivalent to the provided Python code. <br>
+Please let me know if you have any other questions.<br>
 
 ![]({C241368D-18C4-427F-857F-B5BED1925947}.png)
 
@@ -59,7 +59,9 @@ This Go version of banksys is a close functional equivalent to the provided Pyth
 
 # BANKSYS - Banking System in Go
 
-This document outlines the implementation of a simple banking system in Go, inspired by a similar Python project. The aim is to provide a basic command-line interface for common banking operations like account setup, deposits, withdrawals, balance inquiry, viewing a transaction statement, and clearing the statement history.
+This document outlines the implementation of a simple banking system in Go, inspired by a similar Python project. 
+The aim is to provide a basic command-line interface for common banking operations like account setup, deposits, 
+withdrawals, balance inquiry, viewing a transaction statement, and clearing the statement history.
 
 ## Overview
 
