@@ -11,30 +11,30 @@ Key Changes and Explanations
 
 <b>package main</b>: Go programs start with a package declaration.<br>
 <b>import (...)</b>: Imports necessary packages for input/output, random numbers, string manipulation, etc.<br>
-<b>Global Variables</b>: Global variables are declared outside of any function.
+<b>Global Variables</b>: Global variables are declared outside of any function.<br>
 Go uses type inference (e.g., string, float64, int, bool).
 
 # Functions:
 
-<b>func ...</b>: Go functions are defined with func.
-<b>clearScreen()</b>: Uses os/exec to clear the console. The implementation is slightly different due to OS differences.
-<b>waitForEnter()</b>: Waits for user to press enter.
-<b>menu()</b>: Gets the user's option input as a string and converts it to an integer.
-<b>configuracaoInicial()</b>: Similar logic to the Python version.
-<b>efetuarSaque()</b>: Same logic, now in Go.
-<b>efetuarDeposito()</b>: Same logic, now in Go.
-<b>extratoBancario()</b>: Same logic, now in Go.
-<b>clearExtrato()</b>: Same logic, now in Go.
-<b>telaInicial()</b>: Same logic, now in Go.
-<b>mostrarSaldo()</b>: Same logic, now in Go.
-<b>main()</b>: The main function, where the program's execution begins.
-<b>Random Number Generation</b>: rand.New(rand.NewSource(time.Now().UnixNano())).Intn(10000) is used for a more robust way to generate random numbers.
-<b>String Formatting</b>: fmt.Sprintf(...) is used for formatted strings, similar to Python's f-strings.
-<b>Error Handling</b>: strconv.Atoi used to convert the input to integer, and check if an error occurred.
-<b>Input</b>: fmt.Scanln(&variable) is used to get user input.
-<b>Switch</b>: switch statement is used for menu options.
-<b>Comments</b>: Comments in the code are used to explain the logic, and where it came from the Python code.
-<b>Bufio</b>: Used bufio to implement waitForEnter() correctly.
+<b>func ...</b>: Go functions are defined with func.<br>
+<b>clearScreen()</b>: Uses os/exec to clear the console. The implementation is slightly different due to OS differences.<br>
+<b>waitForEnter()</b>: Waits for user to press enter.<br>
+<b>menu()</b>: Gets the user's option input as a string and converts it to an integer.<br>
+<b>configuracaoInicial()</b>: Similar logic to the Python version.<br>
+<b>efetuarSaque()</b>: Same logic, now in Go.<br>
+<b>efetuarDeposito()</b>: Same logic, now in Go.<br>
+<b>extratoBancario()</b>: Same logic, now in Go.<br>
+<b>clearExtrato()</b>: Same logic, now in Go.<br>
+<b>telaInicial()</b>: Same logic, now in Go.<br>
+<b>mostrarSaldo()</b>: Same logic, now in Go.<br>
+<b>main()</b>: The main function, where the program's execution begins.<br>
+<b>Random Number Generation</b>: rand.New(rand.NewSource(time.Now().UnixNano())).Intn(10000) is used for a more robust way to generate random numbers.<br>
+<b>String Formatting</b>: fmt.Sprintf(...) is used for formatted strings, similar to Python's f-strings.<br>
+<b>Error Handling</b>: strconv.Atoi used to convert the input to integer, and check if an error occurred.<br>
+<b>Input</b>: fmt.Scanln(&variable) is used to get user input.<br>
+<b>Switch</b>: switch statement is used for menu options.<br>
+<b>Comments</b>: Comments in the code are used to explain the logic, and where it came from the Python code.<br>
+<b>Bufio</b>: Used bufio to implement waitForEnter() correctly.<br>
 
 How to Run
 
