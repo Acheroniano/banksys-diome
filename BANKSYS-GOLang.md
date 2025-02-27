@@ -10,6 +10,7 @@ Key Changes and Explanations
 Package and Imports:
 
 package main: Go programs start with a package declaration.<br>
+
 ** import (...)**: Imports necessary packages for input/output, random numbers, string manipulation, etc.
 Global Variables:
 
