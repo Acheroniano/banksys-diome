@@ -10,12 +10,12 @@ Key Changes and Explanations
 Package and Imports:
 
 package main: Go programs start with a package declaration.<br>
-<b>import (...)</b>: Imports necessary packages for input/output, random numbers, string manipulation, etc.
-Global Variables:
-
+<b>import (...)</b>: Imports necessary packages for input/output, random numbers, string manipulation, etc.<br>
+<b>Global Variables</b>:
 Global variables are declared outside of any function.
 Go uses type inference (e.g., string, float64, int, bool).
-Functions:
+
+# Functions:
 
 func ...: Go functions are defined with func.
 clearScreen(): Uses os/exec to clear the console. The implementation is slightly different due to OS differences.
