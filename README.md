@@ -25,4 +25,5 @@ Entrega de Projeto Sistema Bancário da Dio.me ( Exercício do Bootcamp Suzano P
 </div>
 
 ## **banksys.py** - Arquivo com o código do projeto em Linguagem Python.
-## **banksys.go** - Arquivo com o código do projeto em Linguagem GO
+## **banksys.go** - Arquivo com o código do projeto em Linguagem GO.
+## **1stpy.py** - Arquivo com anotações de códigos em Python.
