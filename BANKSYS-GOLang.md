@@ -340,76 +340,76 @@ func main() {
 
 ## General Markdown Improvements
 
-##### **Clearer Headings**: Used #, ##, and ### for better heading hierarchy.
-##### **Code Blocks**: Used triple backticks ( ```) for code blocks, making them much easier to read.
-##### **Emphasis**: Used bold (**) and italics (*) for emphasis.
-##### **Lists**: Used bullet points (*) for lists of features.
-##### **Comments**: used more comments.
-##### **New section**: Added the General Markdown Improvements section.
-##### **New code comments**: All functions have comments explaining what they do.
-##### **Code comments**: The codes have more comments.
+##### *Clearer Headings*: Used #, ##, and ### for better heading hierarchy.
+##### *Code Blocks*: Used triple backticks ( ```) for code blocks, making them much easier to read.
+##### *Emphasis*: Used bold (**) and italics (*) for emphasis.
+##### *Lists*: Used bullet points (*) for lists of features.
+##### *Comments*: used more comments.
+##### *New section*: Added the General Markdown Improvements section.
+##### *New code comments*: All functions have comments explaining what they do.
+##### *Code comments*: The codes have more comments.
 
 ## Go Code Explanations (as a Junior Go Dev)
 
 ##### **Global Variables**:
-##### **Comment**: Added a comment block to explain the purpose of the global variables.
-##### **Clarity**: Added comments next to each variable to explain its meaning (e.g., // Name of the bank).
+##### *Comment*: Added a comment block to explain the purpose of the global variables.
+##### *Clarity*: Added comments next to each variable to explain its meaning (e.g., // Name of the bank).
 ##### **waitForEnter()**:
-##### **Comment**: Added a comment to explain the bufio package and how it's used.
-##### **Comment**: explain that it reads until the enter.
+##### *Comment*: Added a comment to explain the bufio package and how it's used.
+##### *Comment*: explain that it reads until the enter.
 ##### **clearScreen()**:
-##### **Comment**: Explained the runtime.GOOS check and why different commands are used.
-##### **Comment**: explain that it sets the output and run the command.
+##### *Comment*: Explained the runtime.GOOS check and why different commands are used.
+##### *Comment*: explain that it sets the output and run the command.
 ##### **menu()**:
-##### **Comment**: Explained how strconv.Atoi works and how it handles errors.
-##### **Comment**: Explain how it gets the input and how it returns.
+##### *Comment*: Explained how strconv.Atoi works and how it handles errors.
+##### *Comment*: Explain how it gets the input and how it returns.
 ##### **configuracaoInicial()**:
-##### **Comment**: Clarified how rand.New(rand.NewSource(time.Now().UnixNano())) is used to seed the random number generator.
-##### **Comment**: Explain that initializes the statement.
+##### *Comment*: Clarified how rand.New(rand.NewSource(time.Now().UnixNano())) is used to seed the random number generator.
+##### *Comment*: Explain that initializes the statement.
 ##### **efetuarSaque()**:
-##### **Comment**: Added comments to explain the logic for checking the daily withdrawal limit.
-##### **Comment**: Explain that adds the transaction to the statement.
+##### *Comment*: Added comments to explain the logic for checking the daily withdrawal limit.
+##### *Comment*: Explain that adds the transaction to the statement.
 ##### **efetuarDeposito()**:
-##### **Comment**: Added a comment to explain how the deposit amount is added to the balance.
-##### **Comment**: Explain that adds the transaction to the statement.
+##### *Comment*: Added a comment to explain how the deposit amount is added to the balance.
+##### *Comment*: Explain that adds the transaction to the statement.
 ##### **clearExtrato()**:
-##### **Comment**: Explained how strings.ToLower() is used to handle different cases of user input (e.g., "S", "s").
+##### *Comment*: Explained how strings.ToLower() is used to handle different cases of user input (e.g., "S", "s").
 ##### **extratoBancario()**:
-##### **Comment**: Explained the check for an empty statement or a statement that only has the initial balance.
+##### *Comment*: Explained the check for an empty statement or a statement that only has the initial balance.
 ##### **telaInicial()**:
-##### **Comment**: Added comments to explain how the menu options are displayed.
+##### *Comment*: Added comments to explain how the menu options are displayed.
 ##### **mostrarSaldo()**:
-##### **Comment**: Added a comment to explain what the function does.
+##### *Comment*: Added a comment to explain what the function does.
 ##### **main()**:
-##### **Comment**: Added a comment to clarify that this is the program's entry point.
-##### **Comment**: Explain how the switch works.
+##### *Comment*: Added a comment to clarify that this is the program's entry point.
+##### *Comment*: Explain how the switch works.
 ### **Other Improvements**
-##### **Consistency**: Used consistent formatting for code and comments.
-##### **Readability**: Improved the wording of comments to make them clearer.
+##### *Consistency*: Used consistent formatting for code and comments.
+##### *Readability*: Improved the wording of comments to make them clearer.
 ### **How to Run**
-##### **Save**: Save the code as banksys.go.
-##### **Open Terminal**: Open a terminal or command prompt.
-##### **Navigate**: Go to the directory where you saved banksys.go.
-##### **Compile**: go build banksys.go
-##### **Run**: ./banksys (or banksys.exe on Windows).
+##### *Save*: Save the code as banksys.go.
+##### *Open Terminal*: Open a terminal or command prompt.
+##### *Navigate*: Go to the directory where you saved banksys.go.
+##### *Compile*: go build banksys.go
+##### *Run*: ./banksys (or banksys.exe on Windows).
 ### **Testing**
-##### **Run the code and interact with the menu options to verify that each function works correctly.**
+##### *Run the code and interact with the menu options to verify that each function works correctly.*
 ### Key Improvements over the Python Version
-##### **Concurrency (Potential): Go has strong concurrency features, so you could add concurrent operations in the future.
-##### **Performance: Go is generally faster than Python.
-##### **Type Safety: Go is statically typed, leading to fewer runtime errors.
+##### *Concurrency (Potential)*: Go has strong concurrency features, so you could add concurrent operations in the future.
+##### *Performance*: Go is generally faster than Python.
+##### *Type Safety*: Go is statically typed, leading to fewer runtime errors.
 ### Further development
-##### **Date and Time: Add the date and time of each transaction to the statement.
-##### **Formatting: Improve the formatting of the statement to make it more visually appealing.
-##### **Improve the check: Improve the condition if extrato == "" || extrato == fmt.Sprintf("Saldo inicial: R$ %.2f\n", 0.0) to be more dynamic.
+##### *Date and Time*: Add the date and time of each transaction to the statement.
+##### *Formatting*: Improve the formatting of the statement to make it more visually appealing.
+##### *Improve the check*: Improve the condition if extrato == "" || extrato == fmt.Sprintf("Saldo inicial: R$ %.2f\n", 0.0) to be more dynamic.
 ###### *This improved BANKSYS-GOLang.md file is much more complete, well-formatted, and informative, especially for a junior Go developer who might be learning these concepts. Please let me know if you have any other questions.*
 
 # **Summary of Changes**
 
-* **Enhanced Markdown:** The overall structure of the Markdown file is better.
-* **Improved Comments:** The comments in the Go code are more thorough and helpful.
-* **More Explanations:** There are additional explanations about the code's logic and Go concepts.
-* **Junior-Friendly:** The perspective of a junior developer was applied throughout.
-* **New sections:** There are new sections, like `General Markdown Improvements` and `Further development`.
+* *Enhanced Markdown:* The overall structure of the Markdown file is better.
+* *Improved Comments:* The comments in the Go code are more thorough and helpful.
+* *More Explanations:* There are additional explanations about the code's logic and Go concepts.
+* *Junior-Friendly:* The perspective of a junior developer was applied throughout.
+* *New sections:* There are new sections, like `General Markdown Improvements` and `Further development`.
 
 ###### *his is the kind of enhanced documentation you might expect from a good Junior Go Developer. I hope this is helpful! Let me know if you have any other questions.*
