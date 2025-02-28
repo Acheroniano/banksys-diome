@@ -59,9 +59,9 @@ Please let me know if you have any other questions.<br>
 
 # BANKSYS - Banking System in Go
 
-This document outlines the implementation of a simple banking system in Go, inspired by a similar Python project. 
-The aim is to provide a basic command-line interface for common banking operations like account setup, deposits, 
-withdrawals, balance inquiry, viewing a transaction statement, and clearing the statement history.
+This document outlines the implementation of a simple banking system in Go, inspired by a similar Python project.<br> 
+The aim is to provide a basic command-line interface for common banking operations like account setup, deposits, <br>
+withdrawals, balance inquiry, viewing a transaction statement, and clearing the statement history. <br>
 
 ## Overview
 
@@ -352,48 +352,48 @@ func main() {
 ## Go Code Explanations (as a Junior Go Dev)
 
 ##### **Global Variables**:
-##### **Comment: Added a comment block to explain the purpose of the global variables.
-##### **Clarity: Added comments next to each variable to explain its meaning (e.g., // Name of the bank).
-##### **waitForEnter():
-##### **Comment: Added a comment to explain the bufio package and how it's used.
-##### **Comment: explain that it reads until the enter.
-##### **clearScreen():
-##### **Comment: Explained the runtime.GOOS check and why different commands are used.
-##### **Comment: explain that it sets the output and run the command.
-##### **menu():
-##### **Comment: Explained how strconv.Atoi works and how it handles errors.
-##### **Comment: Explain how it gets the input and how it returns.
-##### **configuracaoInicial():
-##### **Comment: Clarified how rand.New(rand.NewSource(time.Now().UnixNano())) is used to seed the random number generator.
-##### **Comment: Explain that initializes the statement.
-##### **efetuarSaque():
-##### **Comment: Added comments to explain the logic for checking the daily withdrawal limit.
-##### **Comment: Explain that adds the transaction to the statement.
-##### **efetuarDeposito():
-##### **Comment: Added a comment to explain how the deposit amount is added to the balance.
-##### **Comment: Explain that adds the transaction to the statement.
-##### **clearExtrato():
-##### **Comment: Explained how strings.ToLower() is used to handle different cases of user input (e.g., "S", "s").
-##### **extratoBancario():
-##### **Comment: Explained the check for an empty statement or a statement that only has the initial balance.
-##### **telaInicial():
-##### **Comment: Added comments to explain how the menu options are displayed.
-##### **mostrarSaldo():
-##### **Comment: Added a comment to explain what the function does.
-##### **main():
-##### **Comment: Added a comment to clarify that this is the program's entry point.
-##### **Comment: Explain how the switch works.
-### **Other Improvements
-##### **Consistency: Used consistent formatting for code and comments.
-##### **Readability: Improved the wording of comments to make them clearer.
-### **How to Run
-##### **Save: Save the code as banksys.go.
-##### **Open Terminal: Open a terminal or command prompt.
-##### **Navigate: Go to the directory where you saved banksys.go.
-##### **Compile: go build banksys.go
-##### **Run: ./banksys (or banksys.exe on Windows).
-### **Testing
-##### **Run the code and interact with the menu options to verify that each function works correctly.
+##### **Comment**: Added a comment block to explain the purpose of the global variables.
+##### **Clarity**: Added comments next to each variable to explain its meaning (e.g., // Name of the bank).
+##### **waitForEnter()**:
+##### **Comment**: Added a comment to explain the bufio package and how it's used.
+##### **Comment**: explain that it reads until the enter.
+##### **clearScreen()**:
+##### **Comment**: Explained the runtime.GOOS check and why different commands are used.
+##### **Comment**: explain that it sets the output and run the command.
+##### **menu()**:
+##### **Comment**: Explained how strconv.Atoi works and how it handles errors.
+##### **Comment**: Explain how it gets the input and how it returns.
+##### **configuracaoInicial()**:
+##### **Comment**: Clarified how rand.New(rand.NewSource(time.Now().UnixNano())) is used to seed the random number generator.
+##### **Comment**: Explain that initializes the statement.
+##### **efetuarSaque()**:
+##### **Comment**: Added comments to explain the logic for checking the daily withdrawal limit.
+##### **Comment**: Explain that adds the transaction to the statement.
+##### **efetuarDeposito()**:
+##### **Comment**: Added a comment to explain how the deposit amount is added to the balance.
+##### **Comment**: Explain that adds the transaction to the statement.
+##### **clearExtrato()**:
+##### **Comment**: Explained how strings.ToLower() is used to handle different cases of user input (e.g., "S", "s").
+##### **extratoBancario()**:
+##### **Comment**: Explained the check for an empty statement or a statement that only has the initial balance.
+##### **telaInicial()**:
+##### **Comment**: Added comments to explain how the menu options are displayed.
+##### **mostrarSaldo()**:
+##### **Comment**: Added a comment to explain what the function does.
+##### **main()**:
+##### **Comment**: Added a comment to clarify that this is the program's entry point.
+##### **Comment**: Explain how the switch works.
+### **Other Improvements**
+##### **Consistency**: Used consistent formatting for code and comments.
+##### **Readability**: Improved the wording of comments to make them clearer.
+### **How to Run**
+##### **Save**: Save the code as banksys.go.
+##### **Open Terminal**: Open a terminal or command prompt.
+##### **Navigate**: Go to the directory where you saved banksys.go.
+##### **Compile**: go build banksys.go
+##### **Run**: ./banksys (or banksys.exe on Windows).
+### **Testing**
+##### **Run the code and interact with the menu options to verify that each function works correctly.**
 ### Key Improvements over the Python Version
 ##### **Concurrency (Potential): Go has strong concurrency features, so you could add concurrent operations in the future.
 ##### **Performance: Go is generally faster than Python.
