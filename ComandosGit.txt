@@ -1,0 +1,163 @@
+Microsoft Windows [versão 10.0.26100.2894]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\OBSstudio>e:
+
+E:\>cd Python
+
+E:\Python>cd FirstProgram
+
+E:\Python\FirstProgram>dir
+ O volume na unidade E é 480SSD-1
+ O Número de Série do Volume é 0DF8-7A86
+
+ Pasta de E:\Python\FirstProgram
+
+28/02/2025  13:01    <DIR>          .
+24/02/2025  13:44    <DIR>          ..
+26/02/2025  08:58    <DIR>          .vscode
+26/02/2025  13:29            12.616 1stpy.py
+27/02/2025  02:35            17.670 BANKSYS-GOLang.md
+28/02/2025  13:12             6.205 banksys.go
+27/02/2025  01:09             6.876 banksys.py
+28/02/2025  14:43            13.112 listasempython.py
+27/02/2025  02:19            38.580 {322E830A-2945-4F73-8745-35F1064ACED1}.png
+27/02/2025  02:22            14.965 {C241368D-18C4-427F-857F-B5BED1925947}.png
+27/02/2025  02:22            41.769 {D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png
+27/02/2025  02:20            25.109 {D6E12698-7A23-4466-9D46-43264199D58A}.png
+               9 arquivo(s)        176.902 bytes
+               3 pasta(s)   142.994.137.088 bytes disponíveis
+
+E:\Python\FirstProgram>git -d master
+unknown option: -d
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+E:\Python\FirstProgram>git branch -d master
+error: cannot delete branch 'master' used by worktree at 'E:/Python/FirstProgram'
+
+E:\Python\FirstProgram>git -D master
+unknown option: -D
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]
+           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]
+           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+E:\Python\FirstProgram>git branch -D master
+error: cannot delete branch 'master' used by worktree at 'E:/Python/FirstProgram'
+
+E:\Python\FirstProgram>git branch
+* master
+
+E:\Python\FirstProgram>git checkout -b main origin/main
+error: Your local changes to the following files would be overwritten by checkout:
+        banksys.py
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+        BANKSYS-GOLang.md
+        banksys.go
+        {322E830A-2945-4F73-8745-35F1064ACED1}.png
+        {C241368D-18C4-427F-857F-B5BED1925947}.png
+        {D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png
+        {D6E12698-7A23-4466-9D46-43264199D58A}.png
+Please move or remove them before you switch branches.
+Aborting
+
+E:\Python\FirstProgram>git branch
+* master
+
+E:\Python\FirstProgram>git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+        banksys.py
+Please commit your changes or stash them before you switch branches.
+error: The following untracked working tree files would be overwritten by checkout:
+        BANKSYS-GOLang.md
+        banksys.go
+        {322E830A-2945-4F73-8745-35F1064ACED1}.png
+        {C241368D-18C4-427F-857F-B5BED1925947}.png
+        {D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png
+        {D6E12698-7A23-4466-9D46-43264199D58A}.png
+Please move or remove them before you switch branches.
+Aborting
+
+E:\Python\FirstProgram>git stash
+Saved working directory and index state WIP on master: a115f60 Refactor Python demonstration script to enhance clarity and structure, adding comments and reorganizing code sections for better readability.
+
+E:\Python\FirstProgram>git checkout -b main origin/main
+error: The following untracked working tree files would be overwritten by checkout:
+        BANKSYS-GOLang.md
+        banksys.go
+        {322E830A-2945-4F73-8745-35F1064ACED1}.png
+        {C241368D-18C4-427F-857F-B5BED1925947}.png
+        {D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png
+        {D6E12698-7A23-4466-9D46-43264199D58A}.png
+Please move or remove them before you switch branches.
+Aborting
+
+E:\Python\FirstProgram>git branch
+* master
+
+E:\Python\FirstProgram>git clean -n
+Would remove BANKSYS-GOLang.md
+Would remove banksys.go
+Would remove listasempython.py
+Would remove {322E830A-2945-4F73-8745-35F1064ACED1}.png
+Would remove {C241368D-18C4-427F-857F-B5BED1925947}.png
+Would remove {D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png
+Would remove {D6E12698-7A23-4466-9D46-43264199D58A}.png
+
+E:\Python\FirstProgram>md h:\backup\git
+
+E:\Python\FirstProgram>move BANKSYS-GOLang.md h:\Backup\git
+        1 arquivo(s) movido(s).
+
+E:\Python\FirstProgram>move banksys.go h:\Backup\git
+        1 arquivo(s) movido(s).
+
+E:\Python\FirstProgram>move listasempython.py h:\Backup\git
+        1 arquivo(s) movido(s).
+
+E:\Python\FirstProgram>move *.png h:\Backup\git
+E:\Python\FirstProgram\{322E830A-2945-4F73-8745-35F1064ACED1}.png
+E:\Python\FirstProgram\{C241368D-18C4-427F-857F-B5BED1925947}.png
+E:\Python\FirstProgram\{D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png
+E:\Python\FirstProgram\{D6E12698-7A23-4466-9D46-43264199D58A}.png
+        4 arquivo(s) movido(s).
+
+E:\Python\FirstProgram>git checkout -b main origin/main
+branch 'main' set up to track 'origin/main'.
+Switched to a new branch 'main'
+
+E:\Python\FirstProgram>git branch -d master
+warning: deleting branch 'master' that has been merged to
+         'refs/remotes/origin/master', but not yet merged to HEAD
+Deleted branch master (was a115f60).
+
+E:\Python\FirstProgram>git branch
+* main
+
+E:\Python\FirstProgram>git pull origin main
+From https://github.com/Acheroniano/banksys-diome
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+E:\Python\FirstProgram>git branch -d master
+error: branch 'master' not found
+
+E:\Python\FirstProgram>git fetch origin
+
+E:\Python\FirstProgram>git reset --hard origin/main
+HEAD is now at 9da0758 Update BANKSYS-GOLang.md
+
+E:\Python\FirstProgram>git pull origin main
+From https://github.com/Acheroniano/banksys-diome
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+E:\Python\FirstProgram>
