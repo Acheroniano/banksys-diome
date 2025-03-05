@@ -4,6 +4,7 @@
 from datetime import date
 from datetime import datetime
 from datetime import timedelta
+import pytz
 
 # Here, we're creating a date object using the 'date' class from 'datetime'.
 # We give it the year (2025), the month (3 for March), and the day (5).
@@ -62,5 +63,21 @@ date_string = "25/12/2023 10:30"
 d = datetime.strptime(date_string, "%d/%m/%Y %H:%M")
 print(d)
 
+
+data_hora_atual = datetime.now()
+data_hora_str = "2023-10-20 10:20"
+mascara_ptbr = "%d/%m/%Y %a"
+mascara_en = "%Y-%m-%d %H:%M"
+mascara_jpn = "%Y年%m月%d日 %H時%M分%S秒"
+
+print(data_hora_atual.strftime(mascara_ptbr))
+print(data_hora_atual.strftime(mascara_en))
+print(data_hora_atual.strftime(mascara_jpn))
+
+data = datetime.now(pytz.timezone("Europe/Oslo"))
+data2 = datetime.now(pytz.timezone("America/Sao_Paulo"))   
+
+print(data)
+print(data2)
 
 
