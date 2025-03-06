@@ -1,6 +1,6 @@
-![alt text](./images/{322E830A-2945-4F73-8745-35F1064ACED1}.png)
+![alt text](./images/1.png)
 
-![alt text](./Images/{D6E12698-7A23-4466-9D46-43264199D58A}.png)
+![alt text](./Images/2.png)
 
 ### Look at the banksys.go file was entirely writen by Gemini AI assistant in VsCode.
 
@@ -53,9 +53,9 @@ Go uses type inference (e.g., string, float64, int, bool).
 <b>This Go version of banksys</b> is a close functional equivalent to the provided Python code. <br>
 Please let me know if you have any other questions.<br>
 
-![alt text](./images/{C241368D-18C4-427F-857F-B5BED1925947}.png)
+![alt text](./images/3.png)
 
-![alt text](./images/{D351A46C-F5E5-47D1-9BEC-BFA7093A52C8}.png)
+![alt text](./images/4.png)
 
 # BANKSYS - Banking System in Go
 
