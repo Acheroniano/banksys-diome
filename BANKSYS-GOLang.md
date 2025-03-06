@@ -1,4 +1,4 @@
-![alt text](./images/1.png)
+![alt text](./Images/1.png)
 
 ![alt text](./Images/2.png)
 
@@ -53,9 +53,9 @@ Go uses type inference (e.g., string, float64, int, bool).
 <b>This Go version of banksys</b> is a close functional equivalent to the provided Python code. <br>
 Please let me know if you have any other questions.<br>
 
-![alt text](./images/3.png)
+![alt text](./Images/3.png)
 
-![alt text](./images/4.png)
+![alt text](./Images/4.png)
 
 # BANKSYS - Banking System in Go
 
