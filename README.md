@@ -43,8 +43,6 @@ Entrega de Projeto Sistema Bancário da Dio.me ( Exercício do Bootcamp Suzano P
 ### **BANKSYS-GOLang.md**
 ###### - **Description:** Arquivo markdown com a interação com a GeminiAi para criar o código em GO.
 
-## Directories
-
 ### **/Images**
 ###### - **Description:** Imagens usadas no repositório.
 
