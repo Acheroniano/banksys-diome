@@ -1,37 +1,55 @@
-
 ''' 
 Para ler e escrever dados em Python, utilizamos as seguintes funções: 
 - input: lê UMA linha com dado(s) de Entrada do usuário;
 - print: imprime um texto de Saída (Output), pulando linha.  
 '''
 
-def filtrar_transacoes(transacoes, limite):
-    transacoes_filtradas = []
+class ContaBancaria:
+    # TODO: Inicialize a conta bancária com o nome do titular, saldo 0 e  liste para armazenar as operações realizadas:
+        def __init__(self, user_titular):
+          self.user_titular = user_titular
+          self.usaldo = 0
+          self.operacoes = ["Operações: "]
+          
+    # TODO: Implemente o método para realizar um depósito, adicione o valor ao saldo e registre a operação:
+        def depositar(self, valor):
+          self.usaldo += valor
+          if self.user_titular == "Ana":
+            self. operacoes.append(f"+{valor}; ")
+          else:
+            self.operacoes.append(f"+{valor}, ")
 
-    # TODO: Itere sobre cada transação na lista:
-    for transacao in transacoes:
+    # TODO: Implemente o método para realizar um saque:
+        def sacar(self, valor):
+        # TODO: Verifique se há saldo suficiente para o saque
+        # TODO: Subtraia o valor do saldo (valor já é negativo)
+          if self.usaldo >= abs(valor):
+            self.usaldo -= abs(valor)
+            self.operacoes.append(f"{valor:}, ")
+            
+        # TODO: Registre a operação e retorne a  mensagem de saque negado
+          else:
+            self.operacoes.append(f"Saque não permitido; ")
 
-        # TODO: Verifique se o valor absoluto da transação é maior que o limite:
-        if abs(transacao) > limite:
-             
-            # TODO: Adicione a transação à lista filtrada:
-            transacoes_filtradas.append(transacao)
-        
-
-    # Retorna a lista de transações filtradas
-    return transacoes_filtradas
+    # TODO: Crie o método para exibir o extrato da conta e junte as operações no formato correto:
+        def extrato(self):
+          texto = ""
+          for operacao in self.operacoes:
+            texto=texto + operacao
+          texto = texto + (f"Saldo: {self.usaldo}")
+          print(texto)
 
 
-entrada = input()
+nome_titular = input().strip()  
+conta = ContaBancaria(nome_titular)  
 
-entrada_transacoes, limite = entrada.split("],")
-entrada_transacoes = entrada_transacoes.strip("[]").replace(" ", "") 
-limite = float(limite.strip())  # Converte o limite para float
+entrada_transacoes = input().strip() 
+transacoes = [int(valor) for valor in entrada_transacoes.split(",")]  
 
+for valor in transacoes:
+    if valor > 0:
+        conta.depositar(valor)  
+    else:
+        conta.sacar(valor)  
 
-transacoes = [int(valor) for valor in entrada_transacoes.split(",")]
-
-# TODO: Filtre as transações que ultrapassam o limite:
-resultado = filtrar_transacoes(transacoes, limite)
-
-print(f"Transações: {transacoes_filtradas}")
+conta.extrato()
