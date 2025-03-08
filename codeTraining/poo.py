@@ -255,3 +255,5 @@ my_mountain_bike.parar()  # Herdado de Bicicleta
 my_mountain_bike.jump()  # Método único da MountainBike
 my_mountain_bike.correr()  # Método sobrescrito (comportamento diferente)
 print(my_mountain_bike)
+
+
